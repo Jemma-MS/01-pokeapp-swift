@@ -12,7 +12,7 @@ struct PokemonModel: Codable, Hashable {
     let id: Int
     let attack: Int
     let defense: Int
-    let description: Int
+    let description: String
     let name: String
     let imageUrl: String
     let type: String
