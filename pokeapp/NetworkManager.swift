@@ -9,5 +9,13 @@ import Foundation
 
 class NetworkManager {
     static let baseURL = "https://pokedex-bb36f.firebaseio.com/pokemon.json"
+    
+    init () {
+        
+    }
+    
+    func getListOfPokemon( completed: @escaping  ( Result <[PokemonModel], APError>) -> Void ){
+        
+    }
 }
 
